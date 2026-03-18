@@ -10,7 +10,9 @@
       "backgroundColor": "#F5C543",
       "resizeMode": "contain"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.donravepay.app"
@@ -23,8 +25,10 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/favicon.png"
-    }
+      "output": "single"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
