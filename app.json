@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "DonRavePay",
+    "slug": "donravepay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F5C543",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.donravepay.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5C543"
+      },
+      "package": "com.donravepay.app"
+    }
+  }
+}
