@@ -20,6 +20,11 @@
         "backgroundColor": "#F5C543"
       },
       "package": "com.donravepay.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
     }
   }
 }
